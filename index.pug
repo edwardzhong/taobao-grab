@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title grab taobao
+        style
+            include index.css
+    body
+        div.wrap
+            input#link(type="text" placeholder="链接")
+            input#kw(type="text" placeholder="关键词")
+            button#lbtn 宝贝信息
+            button#rbtn 宝贝排名
+            span 排名接口较慢，请耐心等候！
+            p.info
+            div.rank
+        script
+            include jquery.min.js
+        script
+            include index.js
