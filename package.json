@@ -4,7 +4,8 @@
   "description": "taobao",
   "main": "app.js",
   "scripts": {
-    "start": "node --inspect app"
+    "dev": "node --inspect app",
+    "start": "node app"
   },
   "keywords": [
     "grab"
